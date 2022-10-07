@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "name": "dan1e11s",
+      "password": "123",
+      "id": 1,
+      "likes": []
+    },
+    {
+      "name": "ddasdasdas",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "zzzz",
+      "password": "321",
+      "id": 3
+    },
+    {
+      "name": "1212",
+      "password": "1212",
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "image": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+      "desc": "hello1",
+      "userId": "dan1e11s",
+      "id": 1
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+      "desc": "text1",
+      "userId": "ddasdasdas",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(36, 29, 73), rgb(9, 20, 235)) fixed;
+    font-family: 'Lato', sans-serif;
+}
+
+.reg-log-panel {
+    width: 70%;
+    margin: 4% auto;
+    min-height: 80vh;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.panel {
+    width: 50%;
+    margin: 0 auto;
+    height: 500px
+}
+
+.reg {
+    display: block;
+}
+
+.log {
+    display: none;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+#reg-btn {
+    background-color: #3aa2f1;
+    font-size: 18px;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+#log-btn {
+    background-color: #3aa2f1;
+    font-size: 18px;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.titels {
+    margin-bottom: 5%;
+}
+
+.titels span {
+    margin: 1%;
+    padding-bottom: 1%;
+}
+
+.titels span a {
+    text-decoration: none;
+    color: #3aa2f1;
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+    padding-bottom: 1%;
+}
+
+.border-span {
+    border-bottom: 3px solid #000;
+}
+
+.container {
+    display: none;
+    margin-top: 5%;
+}
+
+#all-post-btn {
+    display: none;
+}
+
+#own-btn {
+    display: none;
+    cursor: pointer;
+}
+
+#logout {
+    display: none;
+    cursor: pointer;
+}
+
+.plus-png {
+    display: none;
+}
+
+.username {
+    display: none;
+    margin:0 2% 0; 
+}
+
+.card {
+    width: 25%;
+    margin-bottom: 3%;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
